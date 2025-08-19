@@ -1,0 +1,127 @@
+<!--! CAUTION: Cannot use double dashes within HTML comments as it can prematurely close the coment in older/less compliant browsers -->
+<!-- Currently at 2:50:00 of the video -->
+ <!-- netlify.com to deploy website -->
+
+<!DOCTYPE html>
+<!-- Standard Declaration for HTML5-->
+<html lang="en">
+<head>
+<!-- single-use tag -->
+    <meta charset="UTF-8">
+    <!-- meta = metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Home Page</title>
+    <!-- single-use tag -->
+    <link rel="stylesheet" href="styles.css"/>
+    <!-- rel = relationship - of the linked document to the current document -->
+    <!-- href = locatino of the linked element -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- All of the link tags and embed code except for the manual (stylesheet reference) are from fonts.google.com -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- single use tag -->
+    <header>
+    <!-- single use tag -->
+        <div class="nav-container">
+            <!-- div = division  -->
+             <!-- div is the tag and class is the attribute. Attributes modify or provide additional information about the encompassing element -->
+             <!-- Classes allow CSS and JavaScript to select and access specific elements via the class selectors or functions like the document.getElementsByClassName(). -->
+              <!-- Developers are encouraged to use names that describe the semantic purpose of the element, rather than the presentation of the element -->
+            <a class="text-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <!-- a = anchor - used for links, both internal and external -->
+                <p>About</p>
+                <!-- p = paragraph -->
+            </a>
+            <a class="text-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <!-- target specifies where to display the linked URL.  -->
+                <p>Store</p>      
+            </a>
+        </div>
+        <nav class="nav-container nav-container-second">
+        <!-- nav = navigation - for jumping to different sections within the website -->
+            <a class="text-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <p>Gmail</p>
+            </a>
+            <a class="text-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <p>Images</p>
+            </a>
+            <a class="icon-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <i class="fa-solid fa-flask"></i>
+                <!-- i for icon -->
+                <!-- icon images are from fontawesome.com -->
+            </a>
+            <a class="icon-link" target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <i class="fa-solid fa-braille"></i>
+                <!-- tags can have multiple classes as seen here -->
+            </a>
+            <button class="img-button">
+                <img src="Public/illegal pepe.png" alt="profile-picture"/>
+                <!-- img is a self closing tag. Must contain a source and an alternate descirption in case the source doesn't load -->
+            </button>
+            <!-- button tag for buttons -->
+            
+        </nav>
+    </header>
+    <main>
+    <!-- single use tag -->
+     <!-- main represents the main body of the content -->
+        <h1 class="title-text">It's Go0gL3, B*tch</h1>
+        <!-- h1 represents a section heading -->
+        <div class="input-bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input title="search">
+            <!-- input represents a typed data field -->
+            <div>
+                <button class="input-icon">
+                    <i class="fa-solid fa-microphone"></i>
+                </button>
+                <button class="input-icon">
+                    <i class="fa-solid fa-camera"></i>
+                </button>
+            </div>
+        </div>
+        <div class="button-grid">
+            <button>
+                <p>Google Search</p>
+            </button>
+             <button>
+                <p>I'm Feeling Lucky</p>
+            </button>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>United States</p>
+        </div>
+        <hr/>
+        <!-- hr = horizontal ruler -->
+        <div class="footer-grid">
+            <div class="footer-links">
+                <a href="">
+                    <p>Advertising</p>
+                </a>
+                <a href="">
+                    <p>Business</p>
+                </a>
+                <a href="">
+                    <p>How Search Works</p>
+                </a>
+            </div>
+            <div class="footer-links">
+                <a href="">
+                    <p>Privacy</p>
+                </a>
+                <a href="">
+                    <p>Terms</p>
+                </a>
+                <a href="">
+                    <p>Settings</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

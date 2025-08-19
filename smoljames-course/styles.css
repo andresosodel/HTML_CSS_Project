@@ -1,0 +1,16 @@
+body 
+{
+    background: green;
+    color: white;
+}
+
+#first_section 
+{
+    background: pink;
+}
+
+.paragraph 
+{
+  color: violet;
+  font-size: 2rem;
+}
